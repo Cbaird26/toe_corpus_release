@@ -1,0 +1,4 @@
+doc_id,title,source_path,source_repo,file_type,page_count,date,version,notes
+MQGT_SCF_Minimal_Consistent_Core_2026,MQGT_SCF_Minimal_Consistent_Core_2026,TOE/papers_sources/MQGT_SCF_Minimal_Consistent_Core_2026.tex,TOE,tex,,2026,,papers_sources/MQGT_SCF_Minimal_Consistent_Core_2026.tex
+CANONICAL_SPINE,CANONICAL_SPINE,TOE/docs/CANONICAL_SPINE.md,TOE,md,,2026,,docs/CANONICAL_SPINE.md
+INTEGRATED_MANUSCRIPT_INDEX,INTEGRATED_MANUSCRIPT_INDEX,TOE/docs/INTEGRATED_MANUSCRIPT_INDEX.md,TOE,md,,2026,,docs/INTEGRATED_MANUSCRIPT_INDEX.md

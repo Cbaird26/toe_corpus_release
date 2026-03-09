@@ -1,0 +1,11 @@
+{
+  "document_title_guess": "Document title from content",
+  "section_title_guess": "Section heading if detectable",
+  "page_range": "001-010",
+  "equations_detected": ["equation text or LaTeX snippet"],
+  "claims_detected": ["claim text"],
+  "citations_detected": ["citation text"],
+  "contradictions_or_duplicates": [],
+  "proposed_destination_paper": "paper_001",
+  "confidence_score": 0.8
+}

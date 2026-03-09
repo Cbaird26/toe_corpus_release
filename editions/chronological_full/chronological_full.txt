@@ -1,0 +1,4 @@
+# Chronological Full Edition
+
+Same material as pull-page full, ordered by document date (2026).
+Concatenate content from editions/pull_page_full/ in order: CANONICAL_SPINE, INTEGRATED_MANUSCRIPT_INDEX, MQGT_SCF_Minimal_Consistent_Core_2026.

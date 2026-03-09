@@ -1,0 +1,112 @@
+--- PAGE 1 ---
+
+MQGT--SCF: Minimal Consistent Core
+Covariant CPTP Measurement Dynamics and Teleology as Measure Tilt
+C. M. Baird (with) Zora
+February 2026
+
+ABSTRACT
+We present a patched, publication-stable "canonical spine" for the MQGT--SCF program.
+The framework extends GR+SM by two scalar singlets: a consciousness field Phi_c(x) and an
+ethics field E(x). The two central hardening choices are: (i) measurement/collapse is modeled
+as a local, covariant completely-positive trace-preserving (CPTP) dynamics in GKSL form
+(Tomonaga--Schwinger hypersurface evolution), and (ii) "teleology" is not inserted as a
+time-odd source term in the Lagrangian but instead implemented as a Radon--Nikodym/Doob
+tilt of the trajectory/outcome measure. We state explicit locality/microcausality conditions
+yielding no-signaling, provide an energy-growth bound for collapse noise with finite bandwidth,
+give a minimal EFT action with renormalizable couplings, and supply a conservative benchmark
+parameter region for phenomenology. Remaining open items are isolated to operationalization of
+the ethical functional and numerical constraint-fitting, rather than internal consistency.
+
+--- PAGE 2 ---
+
+1. Patch notes: what was fixed and why
+MQGT--SCF drafts sometimes contain multiple co-equal implementations of "teleology" and collapse,
+which makes the package feel internally inconsistent. This manuscript chooses one canonical route:
+
+- Teleology: canonical implementation is measure tilt on paths/outcomes (Section 5),
+  not an explicit time-arrow term in L.
+- Measurement: canonical implementation is local covariant GKSL with microcausality
+  (Section 4), ensuring CPTP evolution and blocking superluminal signaling under stated assumptions.
+
+Alternative legacy formulations are quarantined in Appendix A.
+
+2. Field content, symmetries, and EFT action
+2.1 Degrees of freedom
+The minimal extension adds two real scalar singlets on spacetime (M,g_mu_nu):
+Phi_c(x) and E(x),
+in addition to GR+SM fields.
+
+2.2 Canonical EFT action
+We work as an effective field theory (EFT) with local operators of canonical dimension <= 4.
+The action is
+S = integral d^4 x sqrt(-g) (L_GR + L_SM + L_Phi_c + L_E + L_int),
+
+with
+L_GR = (M_Pl^2/2) R - Lambda,
+L_Phi_c = -(1/2)(nabla Phi_c)^2 - V_Phi_c(Phi_c),  V_Phi_c = (1/2) m_Phi_c^2 Phi_c^2 + (lambda_Phi_c/4) Phi_c^4,
+L_E = -(1/2)(nabla E)^2 - V_E(E),  V_E = (1/2) m_E^2 E^2 + (lambda_E/4) E^4.
+
+The minimal renormalizable interactions are
+L_int = -(kappa/2) Phi_c^2 E^2 - gamma Phi_c E - alpha_H |H|^2 Phi_c - beta_H |H|^2 E
+        - g_Phi_c Phi_c O_m - g_E E O_m.
+
+Here H is the SM Higgs doublet and O_m is a coarse-grained matter/neural order parameter.
+The bilinear mixing term gamma Phi_c E is treated as a standard interaction, not as a "teleological arrow."
+
+--- PAGE 3 ---
+
+3. Classical microdynamics
+Varying the action gives the scalar equations of motion
+Box Phi_c + m_Phi_c^2 Phi_c + lambda_Phi_c Phi_c^3 + kappa Phi_c E^2 + gamma E = J_Phi_c(x),
+Box E + m_E^2 E + lambda_E E^3 + kappa E Phi_c^2 + gamma Phi_c = J_E(x),
+where J_Phi_c, J_E encode effective sources from O_m and SM portals.
+
+3.1 Canonical source-term choice (matter/brain coupling)
+O_m(x) = 0.7 n(x) + 0.3 s(x),
+where n(x) is a normalized neural-activity proxy and s(x) a normalized somatic/systemic stress proxy.
+J_Phi_c(x) = g_Phi_c O_m(x) + alpha_H |H(x)|^2,
+J_E(x) = g_E O_m(x) + beta_H |H(x)|^2.
+
+4. Quantization and measurement: covariant CPTP collapse
+4.1 Covariant GKSL in Tomonaga--Schwinger form
+Let Sigma be a Cauchy surface and rho[Sigma] a density functional. The canonical
+non-unitary dynamics is local GKSL on hypersurfaces.
+Microcausality: [L_a(x), L_b(y)] = 0 whenever x and y are spacelike separated.
+
+No-signaling theorem package (v2 assumptions): A1 Local generator, A2 Microcausality,
+A3 Linear CPTP dynamics, A4 Spacelike support separation.
+Under A1--A4, for any admissible Bob protocol in a spacelike-separated region,
+Alice's marginal outcome probabilities are invariant.
+
+--- PAGE 4 ---
+
+5. Teleology in the measure (no source in the Lagrangian)
+5.1 Two-layer construction
+(1) CPT-symmetric microdynamics: unitary drift plus CPTP local dissipators.
+(2) Measure tilt: preference enters by reweighting the probability measure on trajectories/outcomes.
+
+5.2 Radon--Nikodym/Doob tilt on path space
+J_E[Gamma] = integral_0^T j_E(Gamma_t) dt.
+Tilted law: dP_eta/dP_0[Gamma] = exp(eta J_E[Gamma] - psi(eta) T).
+
+5.3 Ethics-weighted Born rule (local form)
+P_eta(i|R) = p_i exp(eta E_i) / sum_j p_j exp(eta E_j).
+E_i = Delta E_i / C_E.
+Standard QM recovered in limits eta -> 0, Delta E_i -> 0, or C_E -> infinity.
+
+5.4 Operational ethics estimator (lab-computable)
+e(x,t) = 0.7 n(x,t) + 0.3 s(x,t)
+E_R(t) = integral_V e(x,t) d^3 x
+Delta E_a = E_R^(a)(t_*) - E_R^baseline(t_*)
+
+6. Parameter hygiene and benchmark
+Conservative region: |sin theta_h-Phi_c|, |sin theta_h-E| < 0.02, m_Phi_c, m_E > O(10 GeV).
+
+7. One hard quantitative handle: interferometric coherence loss
+V/V_0 approx exp(-Gamma T Delta x^2), Gamma ~ gamma_col f(Phi_c,E) x (apparatus factor).
+
+8. What is solved vs. what remains
+Solved: EFT action, bounded vacuum, covariant CPTP, microcausality, no-signaling,
+bounded heating, teleology as measure tilt, weighted Born rule.
+Remaining: Operationalize j_E, populate constraint tables, numerical scans.

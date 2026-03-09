@@ -1,0 +1,12 @@
+# ToE Corpus Release Pipeline
+# PDF extraction
+pymupdf>=1.23.0
+
+# DOCX extraction
+python-docx>=1.0.0
+
+# YAML for config
+pyyaml>=6.0
+
+# Optional: pandoc for DOCX if python-docx insufficient
+# pypandoc>=1.11

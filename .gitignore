@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large intermediate outputs (optional - uncomment if repo gets large)
+# 01_ingest/extracted_txt/*.txt
+# 01_ingest/normalized_txt/*.txt
+# 02_chunks/**/*.txt
+
+# Secrets
+.env
+.env.local
+*.key
