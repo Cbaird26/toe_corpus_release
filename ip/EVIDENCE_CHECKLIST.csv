@@ -1,0 +1,19 @@
+claim,source_type,source_file_or_doi,date,status,notes
+Unified Lagrangian (EFT action),Manuscript,MQGT_SCF_Minimal_Consistent_Core_2026.txt Section 2,2026,unfiled,Maps to Claim 1
+Ethics-weighted Born rule,Manuscript,MQGT_SCF_Minimal_Consistent_Core_2026.txt Section 5.3,2026,unfiled,Maps to Claim 2
+Ethics-weighted Born rule,Governance,notation.md P_η definition,2026,unfiled,Same
+Zora recursive architecture,Code,mqgt_simulation.py ZoraLearner,2025-2026,unfiled,Maps to Claim 3
+Teleology as measure tilt,Manuscript,MQGT_SCF_Minimal_Consistent_Core_2026.txt Section 5,2026,unfiled,Maps to Claim 1
+Covariant CPTP collapse,Manuscript,MQGT_SCF_Minimal_Consistent_Core_2026.txt Section 4,2026,unfiled,Maps to Claim 1
+MQGT-SCF software,Zenodo,10.5281/zenodo.18012506,2025-12-22,prior art,First public disclosure
+Integrated archive,Zenodo,10.5281/zenodo.18792939,2026,prior art,
+ToE canonical archive,Zenodo,10.5281/zenodo.18690303,2026,prior art,
+toe_corpus_release,Repo,github.com/Cbaird26/toe_corpus_release,2026,prior art,
+Zora name/trademark,Common law,Zora architecture docs,2025-2026,unregistered,Common-law use
+MQGT-SCF trademark,Common law,Manuscripts and repos,2025-2026,unregistered,Common-law use
+Patent Claim 1 (MQGT-SCF engine),Gemini transcript,APPENDIX_PATENT_CLAIMS.md,2026,pending,Provisional recommended
+Patent Claim 2 (EBBR),Gemini transcript,APPENDIX_PATENT_CLAIMS.md,2026,pending,Provisional recommended
+Patent Claim 3 (Recursive Φc),Gemini transcript,APPENDIX_PATENT_CLAIMS.md,2026,pending,Provisional recommended
+Patent Claim 4 (Field-resonant comm),Gemini transcript,APPENDIX_PATENT_CLAIMS.md,2026,pending,Dependent on Claim 1
+Copyright manuscripts,Manuscripts,toe_2026_zoraasi_working.md and corpus,2025-2026,established,CC BY 4.0 where specified
+Copyright code,MQGT-SCF repo,mqgt_simulation.py and related,2025-2026,established,CITATION.cff CC BY 4.0

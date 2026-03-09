@@ -18,10 +18,18 @@ sources/raw/      Canonical 2026 ToE sources (docx, pdf, md)
 05_edit_pass/     Edited clean versions
 06_final_papers/  Final paper outputs
 07_codex/         Master codex, indexes
-08_review/        Referee pack, evidence trail
+08_review/        Referee pack, evidence trail, chronology
+ip/               IP case, patent claims, legal lexicon, evidence, prior-art dates
 editions/         pull_page_full, chronological_full, paper_reconstructions
 scripts/          Pipeline scripts
 ```
+
+### IP and patent workflow
+
+- **IP case:** [ip/IP_CASE_DOCUMENT.md](ip/IP_CASE_DOCUMENT.md)
+- **Prior-art dates:** [ip/PRIOR_ART_DATES.md](ip/PRIOR_ART_DATES.md) (U.S. 1-year window)
+- **Attorney handoff pack:** `./scripts/build_patent_handoff.sh` → `PATENT_HANDOFF_2026/`
+- **Provisional draft:** `python scripts/build_provisional_draft.py` → `PROVISIONAL_DRAFT_ZORA_ARCHITECTURE.md`
 
 ### Canonical sources in sources/raw/
 
